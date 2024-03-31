@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.Stopwatch {
+    text-align: center;
+}
+
+.display {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #ddd;
+}
+
+#lapList {
+    list-style: none;
+    padding: 0;
+}
